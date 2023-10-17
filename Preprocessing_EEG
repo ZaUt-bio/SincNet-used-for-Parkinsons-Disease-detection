@@ -1,3 +1,4 @@
+```matlab
 clc
 clear
 %close all
@@ -126,8 +127,7 @@ save('ICLabel_classes_classification.mat', 'ant');
 EEG = pop_saveset( EEG, 'filename',saved_name,'filepath','D:\TEHRAN.uni\THESIS\Parkinson\Dataset\All_preprocessed');
 EEG = eeg_checkset( EEG );
 
-
-
+```
 
 
 
